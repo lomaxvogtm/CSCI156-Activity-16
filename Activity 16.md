@@ -16,14 +16,14 @@ class InvalidSocial(ValueError):
 class Employee:
     pass
 
-def validate(employee_class):
+def validatess(employee_class):
     check that employee_class.ss is valid
     Anywhere that you find the ss is invalid raise InvalidSocial
     
 def getsocial(employee_class):
     employee_class.ss = input("Social: ")
     try
-        validate(employee_class)
+        validatess(employee_class)
     except InvalidSocial:
         print("Invalid SS, please try again\n")
         getsocial(employee_class)
