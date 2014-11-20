@@ -7,7 +7,7 @@ class Employee:
 ### Input SS#
 2. Create a procedure that has an argument of type Employee and inputs their SS# into Employee.ss (substitute you instance variable for Employee here). Your code should validate that a valid SS# is put in.
 3. Create an exception InvalidSocial. In the event that an invalid ss# is typed in raise this exception.
-4. Your code can be pilfered from the previous activity, with some modification. The outline is below, where all you need to do is fill in validate
+4. Your code can be pilfered from the exception handling activity, with some modification. The outline is below, where all you need to do is fill in validate
 
 ```python
 class InvalidSocial(ValueError):
